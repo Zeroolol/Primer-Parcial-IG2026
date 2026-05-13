@@ -1,0 +1,71 @@
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arvo', sans-serif;
+}
+
+header{
+    background-color: #141E36;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+        
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+        
+nav ul li a:hover {
+    background-color: #2980b9;
+    border-radius: 5px;
+}
+
+body{
+    background-image: url('imagenes/fondo.png');
+    background-repeat: repeat;
+}
+
+h1{
+    padding: 1%;
+    text-align: center;
+}
+
+section{
+    padding: 3%;
+    background-color: #141E36;
+}
