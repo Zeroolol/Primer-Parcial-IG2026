@@ -73,20 +73,17 @@ h2{
     padding-bottom: 1rem;
 }
 
-section{
-    padding: 3%;
-    background-color: #141E36;
-    border: 15px double rgb(39, 55, 73);
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-    border-radius: 10px;
-}
+section {
+            padding: 3%;
+            background-color: #141E36;  /* ← Este es el fondo azul oscuro */
+            border: 15px double rgb(39, 55, 73);
+            margin: 40px;
+            border-radius: 10px;
+        }
 
-section p{
-    color: aliceblue;
-}
+        section p {
+            color: aliceblue;
+        }
 
 img{
     width: 500px;
@@ -205,61 +202,68 @@ a{
 }
 
 .obras-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-.obra-item {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    background-color: #141E36;
-    border: 2px solid rgb(39, 55, 73);
-    border-radius: 15px;
-    margin-bottom: 50px;
-    padding: 30px;
-    transition: all 0.3s ease;
-}
+        /* CADA OBRA */
+        .obra-item {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            background-color: #141E36;
+            border: 2px solid rgb(39, 55, 73);
+            border-radius: 15px;
+            margin-bottom: 50px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
 
-.obra-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-}
+        .obra-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
 
-.obra-texto {
-    flex: 1;
-    color: aliceblue;
-}
+        /* TEXTO DE LA OBRA */
+        .obra-texto {
+            flex: 1;
+            color: aliceblue;
+        }
 
-.obra-texto h2 {
-    color: #ffd700;
-    font-size: 28px;
-    margin-bottom: 15px;
-}
+        .obra-texto h2 {
+            color: #ffd700;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
 
-.obra-texto p {
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
+        .obra-texto p {
+            color: aliceblue;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
 
-.obra-imagenes {
-    flex: 1;
-    text-align: center;
-}
+        /* IMAGEN DE LA OBRA */
+        .obra-imagenes {
+            flex: 1;
+            text-align: center;
+        }
 
-.obra-imagenes img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    transition: all 0.3s ease;
-}
+        .obra-imagenes img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border: 4px solid #ffd700;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
 
-.obra-imagenes img:hover {
-    transform: scale(1.03);
-    border-color: #ff6b6b;
-}
+        .obra-imagenes img:hover {
+            transform: scale(1.03);
+            border-color: #ff6b6b;
+        }
+
 
 section ul{
     list-style: none;
