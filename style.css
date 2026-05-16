@@ -95,17 +95,6 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-
-footer {
-    background-color: #141E36;
-    padding: 1.25rem;
-}
-
-footer p {
-    color: aliceblue;
-    text-align: center;
-}
-
 /* CONTENEDOR HOVER */
 
 
@@ -159,11 +148,7 @@ footer p {
     transform: translateX(0);
 }
 
-.grupo-hover:hover .aside-hover {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(0);
-}
+
 
 .grupo-hover {
     display: flex;
